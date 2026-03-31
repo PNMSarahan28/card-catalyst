@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE - IntelliJ/PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IDE - VS Code: (optional - uncomment if you don't want to share settings)
+# .vscode/
+
+# Environment variables & credentials
+credentials.env
+.env
+*.key
+*.pem
+
+# Data files (large/raw data shouldn't be in git)
+data_files/raw/
+data_files/processed/
+data_files/summaries/
+*.csv
+*.json
+*.parquet
+*.avro
+
+# Logs
+app.log
+*.log
+logs/
+
+# PySpark / Hadoop
+metastore_db/
+derby.log
+spark-warehouse/
+.history
+.pyspark/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+wheels/
+pip-wheel-metadata/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
